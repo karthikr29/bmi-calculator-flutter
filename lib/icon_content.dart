@@ -1,10 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-const iconContentColor = Color(0xFF8D8E98);
-const labelTextStyle = TextStyle(
-  fontSize: 18.0,
-  color: iconContentColor,
-);
+import 'contants.dart';
 
 class IconContent extends StatelessWidget {
   final IconData? icon;
@@ -26,7 +22,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           gender!,
-          style: labelTextStyle,
+          style: kLabelTextStyle,
         )
       ],
     );
