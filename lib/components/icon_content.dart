@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-import 'contants.dart';
+import '../constants.dart';
 
 class IconContent extends StatelessWidget {
   final IconData? icon;
